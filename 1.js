@@ -9,10 +9,7 @@ function findUniq(array) {
         return counter
     }, {});
 
-    console.log('quantity', quantity)
     let unique = []
-
-
 
     for (let key in quantity){
         if(quantity[key] === 1){
@@ -21,8 +18,6 @@ function findUniq(array) {
       }
       return unique
 }
-
-console.log(findUniq(['12', 10, '12', 11, 1, 11, 10, '12']))
 
 /**
  * TEST Ejercicio 1
