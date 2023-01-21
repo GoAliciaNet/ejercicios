@@ -3,8 +3,21 @@
 // crea una función findUniq que retorne el elemento único.
 
 function findUniq(array) {
-}
 
+    const quantity = array.reduce((counter, item) => {
+        counter[item] = (counter[item] || 0) + 1;
+        return counter
+    }, {});
+
+    let unique = []
+
+    for (let key in quantity){
+        if(quantity[key] === 1){
+            unique.push(key);
+        }
+      }
+      return unique
+}
 
 /**
  * TEST Ejercicio 1
