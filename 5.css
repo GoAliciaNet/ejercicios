@@ -1,0 +1,21 @@
+.modal-container {
+    width: 40%;
+    height: 50%;
+    background-color: #f9f9f9;
+    position: absolute;
+    left: 30%;
+    border-radius: 16px;
+    border: solid;
+    border-color: grey;
+    top: 20%;
+}
+
+.container{
+    margin: 4%;
+}
+
+.modal-title{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
