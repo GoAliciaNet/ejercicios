@@ -4,6 +4,13 @@
 // Ejemplo: en el caso de [1, 5, 3, 5] existen 2 incremetos ( el día 2 respecto al dia 1 y el dia 4 respecto al día 3 )
 
 function increasedMeasurements(measurements) {
+    let increments = 0
+    console.log(measurements)
+    for (let index = 0; index < measurements.length; index++) {
+        if(measurements[index] > measurements[index - 1]){
+            increments++
+        }
+    }
 }
 
 /**

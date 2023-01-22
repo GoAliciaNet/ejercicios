@@ -13,9 +13,9 @@ const showText = function() {
 }();
 
 // --------------- Solo puedes tocar desde aquí ------------- //
-showText.text = 'Hola';
-showText2 = showText;
-showText2.text = 'Adiós';
+showText.text = "Hola"
+let showText2 = {...showText}
+showText2.text = "adios"
 // --------------- hasta aquí ------------------------------- //
 
 showText.init();  // Hola
